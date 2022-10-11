@@ -1,6 +1,6 @@
 # QuizYourLifeAway
 
-git hub:
+git hub: https://github.com/Khiaotic/QuizYourLifeAway
 
 deployment:
 
@@ -12,6 +12,7 @@ When an  answer is wrong time is  subtracted. The quiz is over when the timer eq
 
 
 
+![Screenshot 2022-10-11 144019](https://user-images.githubusercontent.com/112679225/195174125-81366d32-978f-4646-bfcc-f111f7dd9ce5.jpg)
 
 
 
