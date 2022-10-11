@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <main>
-        <section id="start-quiz">
-            <div id="question-wrapper">
-                <h2>Welcome to the party! Want to take a quiz?</h2>
-            </div>
-            <div id="answer-holder">
-                <button>Option</button>
-                <button>Option</button>
-                <button>Option</button>
-                <button>Option</button>
-            </div>
-        </section>
-    </main>
+       <div id="Welcome">
+        <div class="start-area">
+          <div class="display-text">
+            Welcome. Click START to Test Your Knowledge...
+          </div>
+          <!--<div class="start_btn"><button>START</button></div>
+        </div>-->
+      </div>
     
-    <script src="./assets/script.js"></script>
-</body>
+      <header>
+        <!--<h1 id="quiz-display">Coding Quiz</h1>
+        <p id="howTo" class="how-to">Press start to initiate quiz...</p>
+        <div class="start_btn"><button><strong>START</strong>
+        </button>>
+      </div>-->
+       
+        <div class="timeDisplay">
+          <h1 id="timer"></h1>
+        </div>
+      </header>
+      <section id="quiz-main">
+        <div id="question-wrapper">
+          <h2 id="question">Want to Take A Quiz?</h2>
+        </div>
+        <div id="answer-holder">
+          <button id="1" onclick="checkAnswer(this)">Option</button>
+          <button id="2" onclick="checkAnswer(this)">Option</button>
+          <button id="3" onclick="checkAnswer(this)">Option</button>
+          <button id="4" onclick="checkAnswer(this)">Option</button>
+        </div>
+        
+      </section>
+      
+     
+        
+      </div>
+    </main>
+
+    <script src="./assets/JS/script.js"></script>
+  </body>
 </html>
