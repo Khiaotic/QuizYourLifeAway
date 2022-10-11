@@ -2,7 +2,7 @@
 
 git hub: https://github.com/Khiaotic/QuizYourLifeAway
 
-deployment:
+deployment: https://khiaotic.github.io/QuizYourLifeAway/
 
 
 Created a mostly javascript ran Quiz application. The app is timed and gauges progress . When you click the start button  the  quiz will start, each  answered question will take you to the  next.
