@@ -40,18 +40,18 @@ function startGame() {
   displayQuestion();
 }
 
-function countdown() {
-  console.log("Timer working");
-  let timer = setInterval(function () {
-    timeLeft--;
-    timerEl.textContent = "Time Left: " + timeLeft;
-    if (timeLeft <= 0) {
-      timerEl.textContent = "No time left";
-      endQuiz();
-      clearInterval(timer);
-    }
-  }, 1000);
-}
+// function countdown() {
+//   console.log("Timer working");
+//   let timer = setInterval(function () {
+//     timeLeft--;
+//     timerEl.textContent = "Time Left: " + timeLeft;
+//     if (timeLeft <= 0) {
+//       timerEl.textContent = "No time left";
+//       endQuiz();
+//       clearInterval(timer);
+//     }
+//   }, 1000);
+// }
 
 function displayQuestion() {
   // //     //what is my current question?
