@@ -1,0 +1,34 @@
+/* // select all of the elements before and after */
+*,*::before, *::after{
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+/* root{
+    
+    --blue: #71D6E0;
+    --darkBlue: #6FA6DC;
+    --greenCorrect: #CCE8AB;
+    --darkgreen: #6CC1A2;
+    --yellow: #FBEB93;
+    --pink: #E8B2D6;
+    --lightPink: #F6DEEC;
+    --darkPink: #DB67AE;
+    --orange: #FFC069;
+    --darkOrangeWrong: #C24A0B;
+    --purple: #9557A4;
+}
+
+
+body {
+    padding:0;
+    margin:0;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkBlue);
+
+
+} */

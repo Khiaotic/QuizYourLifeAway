@@ -4,49 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="styles.css"  rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>Quiz Application</title>
   </head>
   <body>
-    <main>
-       <div id="Welcome">
-        <div class="start-area">
-          <div class="display-text">
-            Welcome. Click START to Test Your Knowledge...
-          </div>
-          <!--<div class="start_btn"><button>START</button></div>
-        </div>-->
+    <div class="quiz-container">
+      <div id="questions-container" class="🙈">
+        <div id="question">QUESTION QUESTION</div>
+        <div id="answer-btns" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 1</button>
+        </div>
       </div>
-    
-      <header>
-        <!--<h1 id="quiz-display">Coding Quiz</h1>
-        <p id="howTo" class="how-to">Press start to initiate quiz...</p>
-        <div class="start_btn"><button><strong>START</strong>
-        </button>>
-      </div>-->
-       
-        <div class="timeDisplay">
-          <h1 id="timer"></h1>
-        </div>
-      </header>
-      <section id="quiz-main">
-        <div id="question-wrapper">
-          <h2 id="question">Want to Take A Quiz?</h2>
-        </div>
-        <div id="answer-holder">
-          <button id="1" onclick="checkAnswer(this)">Option</button>
-          <button id="2" onclick="checkAnswer(this)">Option</button>
-          <button id="3" onclick="checkAnswer(this)">Option</button>
-          <button id="4" onclick="checkAnswer(this)">Option</button>
-        </div>
-        
-      </section>
-      
-     
-        
+      <div class="controllers">
+        <button id="start-btn" class="start-btn btn">START</button>
+        <button id="next-btn" class="next-btn btn 🙈">NEXT</button>
       </div>
-    </main>
-
-    <script src="./assets/JS/script.js"></script>
+    </div>
   </body>
+  <script defer scr="script.js"></script>
 </html>
